@@ -13,6 +13,7 @@ Förslag på värden att testa med:  1 2 3, 1 3 2, 3 2 1, -1 -3 -1, 9 9 9, 32 32
 
 """
 #1
+
 tal1 = float (input ("Ange tal1: "))
 tal2 = float (input ("Ange tal2: "))
 tal3 = float (input ("Ange tal3: "))
@@ -46,7 +47,6 @@ elif (tal3 < tal1 < tal2) or (tal2 < tal1 < tal3):
     print("Mellersta talet är: ", tal1)
 elif (tal1 < tal3 < tal2) or (tal2 < tal3 < tal1):
     print ("Mellersta talet är: ", tal3)
-
-
-
+elif tal3 == tal2 == tal1:
+    print("Mellersta talet är: ", tal3)
 
