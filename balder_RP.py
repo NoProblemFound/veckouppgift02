@@ -18,6 +18,8 @@ Skulle det vara bra att lägga till testvärdet 129 cm? Nej, fyller inget syfte
 """
 
 length = float(input("Hur lång är du? Ange din längd i CM: "))
+
+
 if length < 130.0:
     print("Du får inte åka.")
 else:

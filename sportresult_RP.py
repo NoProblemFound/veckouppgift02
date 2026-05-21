@@ -20,8 +20,9 @@ liverpool = int(input("Hur många mål gjorde Liverpool: "))
 tottenham = int(input("Hur många mål gjorde Tottenham: "))
 
 if liverpool < tottenham:
-    print("Tottenham vann!")
+    print("Tottenham vann med ", tottenham-liverpool, " mål")
+
 elif liverpool > tottenham:
-    print("Liverpool vann!")
+    print("Liverpool vann med ", liverpool - tottenham, " mål")
 else:
     print("Matchen blev oavgjort.")
